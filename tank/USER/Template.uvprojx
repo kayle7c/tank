@@ -558,16 +558,6 @@
           <GroupName>Hardware</GroupName>
           <Files>
             <File>
-              <FileName>CountSensor.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\Headware\CountSensor.c</FilePath>
-            </File>
-            <File>
-              <FileName>CountSensor.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\Headware\CountSensor.h</FilePath>
-            </File>
-            <File>
               <FileName>usart2.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\Headware\usart2.c</FilePath>
