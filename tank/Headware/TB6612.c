@@ -43,15 +43,10 @@ void tb6612_Init(void)
 	//PWM占空比=CCR/（ARR+1）
 	//PWM分辨率=1/（ARR+1）  
 	//1M=1000000Hz
-	
-	TIM_Cmd(TIM2, ENABLE); //使能定时器			
-}
-
-void tb6612hl_Init(void)
-{
+	TIM_Cmd(TIM2, ENABLE); //使能定时器
+//**************************************************************************************************************
 	RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOC, ENABLE);
 	
-	GPIO_InitTypeDef GPIO_InitStructure;
 	GPIO_InitStructure.GPIO_Mode = GPIO_Mode_Out_PP;
 	GPIO_InitStructure.GPIO_Speed = GPIO_Speed_50MHz;
 	GPIO_InitStructure.GPIO_Pin = GPIO_Pin_0|GPIO_Pin_1|GPIO_Pin_2|GPIO_Pin_3;
