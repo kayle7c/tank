@@ -1,5 +1,5 @@
 Dependencies for Project 'Template', Target 'Template': (DO NOT MODIFY !)
-F (.\main.c)(0x66685E3E)(--c99 --gnu -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\CORE -I ..\USER -I ..\STM32F10x_FWLib\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SYSTEM -I ..\Headware -I ..\USB\STM32_USB-FS-Device_Driver\inc -I ..\USB\CONFIG -I ..\Headware\mpu6050-I.\RTE\_Template-ID:\keil\Keil\STM32F1xx_DFP\1.0.5\Device\Include-ID:\keil\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\main.o --omf_browse ..\obj\main.crf --depend ..\obj\main.d)
+F (.\main.c)(0x666DAA11)(--c99 --gnu -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\CORE -I ..\USER -I ..\STM32F10x_FWLib\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SYSTEM -I ..\Headware -I ..\USB\STM32_USB-FS-Device_Driver\inc -I ..\USB\CONFIG -I ..\Headware\mpu6050-I.\RTE\_Template-ID:\keil\Keil\STM32F1xx_DFP\1.0.5\Device\Include-ID:\keil\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\main.o --omf_browse ..\obj\main.crf --depend ..\obj\main.d)
 I (stm32f10x.h)(0x4D783CB4)
 I (..\CORE\core_cm3.h)(0x4D523B58)
 I (D:\keil\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
@@ -42,7 +42,7 @@ I (..\Headware\mpu6050\mpu6050.h)(0x638187BC)
 I (..\Headware\mpu6050\mpuiic.h)(0x6666CE48)
 I (..\Headware\mpu6050\inv_mpu.h)(0x64DBAA81)
 I (..\Headware\mpu6050\inv_mpu_dmp_motion_driver.h)(0x50CA9A0C)
-I (..\Headware\Control.h)(0x6666EAF3)
+I (..\Headware\Control.h)(0x666DA8BD)
 I (D:\keil\ARM\ARMCC\include\stdlib.h)(0x599ECD2C)
 F (.\stm32f10x_it.c)(0x4D99A59E)(--c99 --gnu -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\CORE -I ..\USER -I ..\STM32F10x_FWLib\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SYSTEM -I ..\Headware -I ..\USB\STM32_USB-FS-Device_Driver\inc -I ..\USB\CONFIG -I ..\Headware\mpu6050-I.\RTE\_Template-ID:\keil\Keil\STM32F1xx_DFP\1.0.5\Device\Include-ID:\keil\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f10x_it.o --omf_browse ..\obj\stm32f10x_it.crf --depend ..\obj\stm32f10x_it.d)
 I (stm32f10x_it.h)(0x4D99A59E)
@@ -869,7 +869,7 @@ I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
 I (..\SYSTEM\usart\usart.h)(0x66364763)
 I (D:\keil\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
 I (D:\keil\ARM\ARMCC\include\string.h)(0x599ECD2C)
-F (..\Headware\usart2.c)(0x66670C19)(--c99 --gnu -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\CORE -I ..\USER -I ..\STM32F10x_FWLib\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SYSTEM -I ..\Headware -I ..\USB\STM32_USB-FS-Device_Driver\inc -I ..\USB\CONFIG -I ..\Headware\mpu6050-I.\RTE\_Template-ID:\keil\Keil\STM32F1xx_DFP\1.0.5\Device\Include-ID:\keil\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\usart2_1.o --omf_browse ..\obj\usart2_1.crf --depend ..\obj\usart2_1.d)
+F (..\Headware\usart2.c)(0x666AE872)(--c99 --gnu -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\CORE -I ..\USER -I ..\STM32F10x_FWLib\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SYSTEM -I ..\Headware -I ..\USB\STM32_USB-FS-Device_Driver\inc -I ..\USB\CONFIG -I ..\Headware\mpu6050-I.\RTE\_Template-ID:\keil\Keil\STM32F1xx_DFP\1.0.5\Device\Include-ID:\keil\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\usart2_1.o --omf_browse ..\obj\usart2_1.crf --depend ..\obj\usart2_1.d)
 I (..\SYSTEM\sys\sys.h)(0x5822B9C2)
 I (..\USER\stm32f10x.h)(0x4D783CB4)
 I (..\CORE\core_cm3.h)(0x4D523B58)
@@ -1028,7 +1028,7 @@ I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x4D783BB4)
 I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
 I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
 F (..\Headware\Encoder.h)(0x6666EBB1)()
-F (..\Headware\Control.c)(0x66670DC3)(--c99 --gnu -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\CORE -I ..\USER -I ..\STM32F10x_FWLib\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SYSTEM -I ..\Headware -I ..\USB\STM32_USB-FS-Device_Driver\inc -I ..\USB\CONFIG -I ..\Headware\mpu6050-I.\RTE\_Template-ID:\keil\Keil\STM32F1xx_DFP\1.0.5\Device\Include-ID:\keil\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\control.o --omf_browse ..\obj\control.crf --depend ..\obj\control.d)
+F (..\Headware\Control.c)(0x666DB2D8)(--c99 --gnu -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\CORE -I ..\USER -I ..\STM32F10x_FWLib\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SYSTEM -I ..\Headware -I ..\USB\STM32_USB-FS-Device_Driver\inc -I ..\USB\CONFIG -I ..\Headware\mpu6050-I.\RTE\_Template-ID:\keil\Keil\STM32F1xx_DFP\1.0.5\Device\Include-ID:\keil\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\control.o --omf_browse ..\obj\control.crf --depend ..\obj\control.d)
 I (..\USER\stm32f10x.h)(0x4D783CB4)
 I (..\CORE\core_cm3.h)(0x4D523B58)
 I (D:\keil\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
@@ -1057,7 +1057,8 @@ I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
 I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x4D783BB4)
 I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
 I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
-F (..\Headware\Control.h)(0x6666EAF3)()
+I (..\Headware\Control.h)(0x666DA8BD)
+F (..\Headware\Control.h)(0x666DA8BD)()
 F (..\Headware\mpu6050\dmpKey.h)(0x50CA9A0C)()
 F (..\Headware\mpu6050\dmpmap.h)(0x50CA9A0C)()
 F (..\Headware\mpu6050\inv_mpu.c)(0x64DBAC64)(--c99 --gnu -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\CORE -I ..\USER -I ..\STM32F10x_FWLib\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SYSTEM -I ..\Headware -I ..\USB\STM32_USB-FS-Device_Driver\inc -I ..\USB\CONFIG -I ..\Headware\mpu6050-I.\RTE\_Template-ID:\keil\Keil\STM32F1xx_DFP\1.0.5\Device\Include-ID:\keil\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\inv_mpu.o --omf_browse ..\obj\inv_mpu.crf --depend ..\obj\inv_mpu.d)
