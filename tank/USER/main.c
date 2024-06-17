@@ -34,9 +34,10 @@ char command;                           //收到的指令
 extern u8  USART2_RX_BUF[200];          //串口缓冲区
 extern u16 USART2_RX_STA;               //串口标志位
 char STA_Flag=0;                        //串口接收到完整数据的次数
+char Receive_BUF[60];
 
 
-void Receive_Data()
+void Receive_Data1()                    //广和通
 {
 	if(((USART2_RX_STA&0x8000)>>15)==1)
 	{
@@ -51,6 +52,20 @@ void Receive_Data()
 		memset(USART2_RX_BUF,0,sizeof(USART2_RX_BUF));
 		USART2_RX_STA=0;
 	}
+}
+
+void Receive_Data2()                    //esp01
+{
+	if(((USART2_RX_STA&0x8000)>>15)==1)
+	{
+			if(USART2_RX_BUF[0]==0xFE)
+			{
+				Data_Parse(USART2_RX_BUF);
+			}
+			memset(USART2_RX_BUF,0,sizeof(USART2_RX_BUF));
+		USART2_RX_STA=0;
+	}
+	
 }
 
 void Get_Speed()
@@ -73,13 +88,13 @@ int main(void)
 	tb6612_Init();
 	Encoder_Init_TIM3();
 	Encoder_Init_TIM4();
-	MPU_Init();
+//	MPU_Init();
 	clrStruct();
 	while(1)
 	{
-		Receive_Data();
-		Get_Speed();
-		Gps_Handle();
+		Receive_Data2();
+		//Get_Speed();
+		//Gps_Handle();
 	}	
 
 }
